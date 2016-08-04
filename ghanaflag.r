@@ -6,6 +6,22 @@ library(ggthemes)
 df <- read.csv("C:/Users/DAVID/Documents/Book1.csv")
 df1 <- data.frame(x1 = c(5, -.1, 5), y1 = c(37.5, 37.5, 37.7))
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## But how to create Mexican flag??
+
 #### Plot Ghana Flag!####
 ggplot(df, aes(x1, y1)) + geom_curve(aes(x = x1, xend = x2, y = y1, yend = y2), col = "gray93") + 
 scale_color_manual(values = c("gray93", "green4")) + xlim(0, 10) + ylim(0, 100) + 
